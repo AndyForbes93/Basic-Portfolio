@@ -9,39 +9,41 @@ h1{
     text-decoration: underline;
 }
 .banner{
-    text-align: center;
+    text-align: left;
     background-color:rgb(8, 14, 59);
     font-style: bold;
+    font-size:21px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     width:1215px;
     color:rgb(155, 159, 194);
     border: solid;
     border-color: rgb(8, 14, 59);
+    padding:0px 0px 0px 10px;
 
 
 }
 .content{
         float:left;
         width:470px;
-        margin:10px 0px 10px 10px;
+        margin:0px 0px 0px 0px;
         border-top: 3px solid rgb(8, 14, 59);
         border-bottom: 3px solid rgb(8, 14, 59);
         background-color: rgb(107, 114, 161);
-        padding: 0px 10px 140px 10px;
+        padding: 0px 22px 94px 22px;
         font-size: 20px;
 
 }
 .image{
     float: left;
     width:470px;
-    margin:10px 10px 10px 0px;
+    margin:0px 10px 10px 0px;
     padding-left:0px;
     
 
 }
 .about_me{
-    float:left;
-    margin:0px 120px;
+    top:15px;
+    left:38%;
     background-color:rgb(44, 51, 108);
     color:rgb(155, 159, 194);
     border-left: solid;
@@ -49,11 +51,13 @@ h1{
     border-bottom: solid;
     border-color: rgb(8, 14, 59);
     padding:0px 20px;
+    position:absolute;
     
 }
 .portfolio{
     float:left;
-    margin:0px 120px;
+    top:15px;
+    left:46%;
     background-color:rgb(44, 51, 108);
     color:rgb(155, 159, 194);
     border-left: solid;
@@ -61,10 +65,12 @@ h1{
     border-bottom: solid;
     border-color: rgb(8, 14, 59);
     padding:0px 20px;
+    position:absolute;
 }
 .contact_me{
     float:left;
-    margin:0px 120px;
+    top:15px;
+    left:53%;
     background-color:rgb(44, 51, 108);
     color:rgb(155, 159, 194);
     border-left: solid;
@@ -72,6 +78,7 @@ h1{
     border-bottom: solid;
     border-color: rgb(8, 14, 59);
     padding:0px 20px;
+    position:absolute;
 }
 a:hover{
     background-color: rgb(107, 114, 161);
@@ -86,7 +93,7 @@ a:hover{
     text-decoration: underline;
     background-color:rgb(77, 84, 136);
     color:rgb(21, 24, 49);
-    padding-left:00px;
+    padding:0px 5px 0px 5px;
 
 }
 input{
@@ -119,6 +126,7 @@ h4{
     height:800px;
     background-color:rgb(107, 114, 161);
     border:solid;
+    padding:0px 5px 0px 5px;
 }
 .box{
     float:left;
